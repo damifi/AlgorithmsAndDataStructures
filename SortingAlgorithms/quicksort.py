@@ -14,11 +14,6 @@ def quicksort(list):
 
     #chose a pivot element and break the list into two parts: the left list contains all elements smaller 
     #than the pivot element and the right list contains all elements greater than the pivot element#
-
-    #TODO:
-    #1 choose pivot
-    #2 break the list into 2 lists
-    #3 recursively call the functions
     
     #list for elements smaller than the pivot
     smallerThanPivot = []
@@ -39,8 +34,6 @@ def quicksort(list):
 
 unorderedOddList = [3, 5, 9, 8 , 6, 5, 3 , 1, 1,2, 8]
 unorderedEvenList = [3, 5, 9, 8 , 6, 5, 3 , 1, 1,2, 8, 1]
-wrongTypeList = ["oi", "mate", "where"]
-#print("Sorted odd list: " + str(quicksort(wrongTypeList)))
 
 print("Sorted odd list: " + str(quicksort(unorderedOddList)))
 print("Sorted even list: " +str(quicksort(unorderedEvenList)))
